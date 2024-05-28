@@ -17,7 +17,15 @@ def scrape():
             href = link.get('href')
             if href.endswith('.zip'):
                 nome_arquivo = href.split('/')[-1]
-                mapeamento.append({nome_arquivo: url + href})
+                data_modificacao = link.find_next('td').text.strip()
+                tamanho_arquivo = link.find_next(
+                    'td').find_next('td').text.strip()
+                mapeamento.append({
+                    "nome_arquivo": nome_arquivo,
+                    "url": url + href,
+                    "lastUpdate": data_modificacao,
+                    "fileSize": tamanho_arquivo
+                })
 
     # Certifique-se de que o diretório src existe
     os.makedirs('./src', exist_ok=True)
