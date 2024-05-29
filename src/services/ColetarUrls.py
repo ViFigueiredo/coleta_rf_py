@@ -24,7 +24,8 @@ def scrape():
                     "nome_arquivo": nome_arquivo,
                     "url": url + href,
                     "lastUpdate": data_modificacao,
-                    "fileSize": tamanho_arquivo
+                    "fileSize": tamanho_arquivo,
+                    "downloads": 0,
                 })
 
     # Certifique-se de que o diretório src existe

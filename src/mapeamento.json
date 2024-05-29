@@ -1,248 +1,289 @@
 [
-    {
-        "nome_arquivo": "Cnaes.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Cnaes.zip",
-        "lastUpdate": "2024-05-24 14:56",
-        "fileSize": "22K"
-    },
-    {
-        "nome_arquivo": "Empresas0.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas0.zip",
-        "lastUpdate": "2024-05-24 15:51",
-        "fileSize": "321M"
-    },
-    {
-        "nome_arquivo": "Empresas1.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas1.zip",
-        "lastUpdate": "2024-05-24 15:54",
-        "fileSize": "74M"
-    },
-    {
-        "nome_arquivo": "Empresas2.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas2.zip",
-        "lastUpdate": "2024-05-24 15:56",
-        "fileSize": "75M"
-    },
-    {
-        "nome_arquivo": "Empresas3.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas3.zip",
-        "lastUpdate": "2024-05-24 15:57",
-        "fileSize": "81M"
-    },
-    {
-        "nome_arquivo": "Empresas4.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas4.zip",
-        "lastUpdate": "2024-05-24 15:59",
-        "fileSize": "86M"
-    },
-    {
-        "nome_arquivo": "Empresas5.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas5.zip",
-        "lastUpdate": "2024-05-24 16:01",
-        "fileSize": "93M"
-    },
-    {
-        "nome_arquivo": "Empresas6.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas6.zip",
-        "lastUpdate": "2024-05-24 16:01",
-        "fileSize": "90M"
-    },
-    {
-        "nome_arquivo": "Empresas7.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas7.zip",
-        "lastUpdate": "2024-05-24 15:49",
-        "fileSize": "95M"
-    },
-    {
-        "nome_arquivo": "Empresas8.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas8.zip",
-        "lastUpdate": "2024-05-24 15:51",
-        "fileSize": "95M"
-    },
-    {
-        "nome_arquivo": "Empresas9.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Empresas9.zip",
-        "lastUpdate": "2024-05-24 15:53",
-        "fileSize": "91M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos0.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos0.zip",
-        "lastUpdate": "2024-05-24 15:29",
-        "fileSize": "1.2G"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos1.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos1.zip",
-        "lastUpdate": "2024-05-24 15:59",
-        "fileSize": "323M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos2.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos2.zip",
-        "lastUpdate": "2024-05-24 15:37",
-        "fileSize": "322M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos3.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos3.zip",
-        "lastUpdate": "2024-05-24 15:41",
-        "fileSize": "322M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos4.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos4.zip",
-        "lastUpdate": "2024-05-24 15:44",
-        "fileSize": "336M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos5.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos5.zip",
-        "lastUpdate": "2024-05-24 15:48",
-        "fileSize": "336M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos6.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos6.zip",
-        "lastUpdate": "2024-05-24 15:20",
-        "fileSize": "323M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos7.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos7.zip",
-        "lastUpdate": "2024-05-24 15:27",
-        "fileSize": "321M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos8.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos8.zip",
-        "lastUpdate": "2024-05-24 15:34",
-        "fileSize": "322M"
-    },
-    {
-        "nome_arquivo": "Estabelecimentos9.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos9.zip",
-        "lastUpdate": "2024-05-24 15:12",
-        "fileSize": "345M"
-    },
-    {
-        "nome_arquivo": "Motivos.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Motivos.zip",
-        "lastUpdate": "2024-05-24 14:56",
-        "fileSize": "1.1K"
-    },
-    {
-        "nome_arquivo": "Municipios.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Municipios.zip",
-        "lastUpdate": "2024-05-24 14:56",
-        "fileSize": "42K"
-    },
-    {
-        "nome_arquivo": "Naturezas.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Naturezas.zip",
-        "lastUpdate": "2024-05-24 14:56",
-        "fileSize": "1.5K"
-    },
-    {
-        "nome_arquivo": "Paises.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Paises.zip",
-        "lastUpdate": "2024-05-24 14:56",
-        "fileSize": "2.7K"
-    },
-    {
-        "nome_arquivo": "Qualificacoes.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Qualificacoes.zip",
-        "lastUpdate": "2024-05-24 14:56",
-        "fileSize": "1.0K"
-    },
-    {
-        "nome_arquivo": "Simples.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Simples.zip",
-        "lastUpdate": "2024-05-24 15:00",
-        "fileSize": "216M"
-    },
-    {
-        "nome_arquivo": "Socios0.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios0.zip",
-        "lastUpdate": "2024-05-24 14:59",
-        "fileSize": "139M"
-    },
-    {
-        "nome_arquivo": "Socios1.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios1.zip",
-        "lastUpdate": "2024-05-24 15:03",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios2.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios2.zip",
-        "lastUpdate": "2024-05-24 15:03",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios3.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios3.zip",
-        "lastUpdate": "2024-05-24 15:04",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios4.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios4.zip",
-        "lastUpdate": "2024-05-24 15:05",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios5.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios5.zip",
-        "lastUpdate": "2024-05-24 15:00",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios6.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios6.zip",
-        "lastUpdate": "2024-05-24 15:01",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios7.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios7.zip",
-        "lastUpdate": "2024-05-24 15:01",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios8.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios8.zip",
-        "lastUpdate": "2024-05-24 15:02",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Socios9.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/Socios9.zip",
-        "lastUpdate": "2024-05-24 15:02",
-        "fileSize": "47M"
-    },
-    {
-        "nome_arquivo": "Imunes%20e%20isentas.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Imunes%20e%20isentas.zip",
-        "lastUpdate": "2024-02-28 14:45",
-        "fileSize": "8.7M"
-    },
-    {
-        "nome_arquivo": "Lucro%20Arbitrado.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Lucro%20Arbitrado.zip",
-        "lastUpdate": "2024-02-28 14:45",
-        "fileSize": "58K"
-    },
-    {
-        "nome_arquivo": "Lucro%20Presumido%201.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Lucro%20Presumido%201.zip",
-        "lastUpdate": "2024-02-29 15:40",
-        "fileSize": "28M"
-    },
-    {
-        "nome_arquivo": "Lucro%20Real.zip",
-        "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Lucro%20Real.zip",
-        "lastUpdate": "2024-02-28 14:45",
-        "fileSize": "8.0M"
-    }
+  {
+    "nome_arquivo": "Cnaes.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Cnaes.zip",
+    "lastUpdate": "2024-05-24 14:56",
+    "fileSize": "22K",
+    "downloads": 1
+  },
+  {
+    "nome_arquivo": "Empresas0.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas0.zip",
+    "lastUpdate": "2024-05-24 15:51",
+    "fileSize": "321M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas1.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas1.zip",
+    "lastUpdate": "2024-05-24 15:54",
+    "fileSize": "74M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas2.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas2.zip",
+    "lastUpdate": "2024-05-24 15:56",
+    "fileSize": "75M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas3.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas3.zip",
+    "lastUpdate": "2024-05-24 15:57",
+    "fileSize": "81M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas4.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas4.zip",
+    "lastUpdate": "2024-05-24 15:59",
+    "fileSize": "86M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas5.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas5.zip",
+    "lastUpdate": "2024-05-24 16:01",
+    "fileSize": "93M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas6.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas6.zip",
+    "lastUpdate": "2024-05-24 16:01",
+    "fileSize": "90M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas7.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas7.zip",
+    "lastUpdate": "2024-05-24 15:49",
+    "fileSize": "95M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas8.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas8.zip",
+    "lastUpdate": "2024-05-24 15:51",
+    "fileSize": "95M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Empresas9.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Empresas9.zip",
+    "lastUpdate": "2024-05-24 15:53",
+    "fileSize": "91M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos0.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos0.zip",
+    "lastUpdate": "2024-05-24 15:29",
+    "fileSize": "1.2G",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos1.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos1.zip",
+    "lastUpdate": "2024-05-24 15:59",
+    "fileSize": "323M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos2.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos2.zip",
+    "lastUpdate": "2024-05-24 15:37",
+    "fileSize": "322M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos3.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos3.zip",
+    "lastUpdate": "2024-05-24 15:41",
+    "fileSize": "322M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos4.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos4.zip",
+    "lastUpdate": "2024-05-24 15:44",
+    "fileSize": "336M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos5.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos5.zip",
+    "lastUpdate": "2024-05-24 15:48",
+    "fileSize": "336M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos6.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos6.zip",
+    "lastUpdate": "2024-05-24 15:20",
+    "fileSize": "323M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos7.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos7.zip",
+    "lastUpdate": "2024-05-24 15:27",
+    "fileSize": "321M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos8.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos8.zip",
+    "lastUpdate": "2024-05-24 15:34",
+    "fileSize": "322M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Estabelecimentos9.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Estabelecimentos9.zip",
+    "lastUpdate": "2024-05-24 15:12",
+    "fileSize": "345M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Motivos.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Motivos.zip",
+    "lastUpdate": "2024-05-24 14:56",
+    "fileSize": "1.1K",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Municipios.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Municipios.zip",
+    "lastUpdate": "2024-05-24 14:56",
+    "fileSize": "42K",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Naturezas.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Naturezas.zip",
+    "lastUpdate": "2024-05-24 14:56",
+    "fileSize": "1.5K",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Paises.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Paises.zip",
+    "lastUpdate": "2024-05-24 14:56",
+    "fileSize": "2.7K",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Qualificacoes.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Qualificacoes.zip",
+    "lastUpdate": "2024-05-24 14:56",
+    "fileSize": "1.0K",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Simples.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Simples.zip",
+    "lastUpdate": "2024-05-24 15:00",
+    "fileSize": "216M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios0.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios0.zip",
+    "lastUpdate": "2024-05-24 14:59",
+    "fileSize": "139M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios1.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios1.zip",
+    "lastUpdate": "2024-05-24 15:03",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios2.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios2.zip",
+    "lastUpdate": "2024-05-24 15:03",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios3.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios3.zip",
+    "lastUpdate": "2024-05-24 15:04",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios4.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios4.zip",
+    "lastUpdate": "2024-05-24 15:05",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios5.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios5.zip",
+    "lastUpdate": "2024-05-24 15:00",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios6.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios6.zip",
+    "lastUpdate": "2024-05-24 15:01",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios7.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios7.zip",
+    "lastUpdate": "2024-05-24 15:01",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios8.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios8.zip",
+    "lastUpdate": "2024-05-24 15:02",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Socios9.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/Socios9.zip",
+    "lastUpdate": "2024-05-24 15:02",
+    "fileSize": "47M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Imunes%20e%20isentas.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Imunes%20e%20isentas.zip",
+    "lastUpdate": "2024-02-28 14:45",
+    "fileSize": "8.7M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Lucro%20Arbitrado.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Lucro%20Arbitrado.zip",
+    "lastUpdate": "2024-02-28 14:45",
+    "fileSize": "58K",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Lucro%20Presumido%201.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Lucro%20Presumido%201.zip",
+    "lastUpdate": "2024-02-29 15:40",
+    "fileSize": "28M",
+    "downloads": 0
+  },
+  {
+    "nome_arquivo": "Lucro%20Real.zip",
+    "url": "https://dados.rfb.gov.br/CNPJ/regime_tributario/Lucro%20Real.zip",
+    "lastUpdate": "2024-02-28 14:45",
+    "fileSize": "8.0M",
+    "downloads": 0
+  }
 ]

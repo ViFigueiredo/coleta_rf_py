@@ -12,7 +12,12 @@ def extract():
             # Crie um objeto ZipFile
             with zipfile.ZipFile(f'downloads/{filename}', 'r') as zip_ref:
                 # Extraia todos os arquivos para o diretório 'extracted'
-                zip_ref.extractall('extracted')
+                for member in zip_ref.namelist():
+                    path = os.path.join('extracted', member + '.csv')
+                    # Remover o arquivo se ele já existir
+                    if os.path.exists(path):
+                        os.remove(path)
+                    zip_ref.extract(member, 'extracted')
 
 
 def add_extension():

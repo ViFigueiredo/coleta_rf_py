@@ -2,7 +2,7 @@ import requests
 import json
 import os
 from PyInquirer import prompt
-from tqdm import tqdm  # Importando a biblioteca tqdm para mostrar o progresso
+from tqdm import tqdm
 
 
 def download():
@@ -29,15 +29,27 @@ def download():
     for item in mapeamento:
         nome_arquivo, url = item['nome_arquivo'], item['url']
         if nome_arquivo in arquivos_selecionados:
+            caminho_arquivo = f'downloads/{nome_arquivo}'
+
+            # Remover o arquivo se ele já existir
+            if os.path.exists(caminho_arquivo):
+                os.remove(caminho_arquivo)
+
             # Usando stream=True para download progressivo
             response = requests.get(url, stream=True)
             tamanho_arquivo = int(response.headers.get('content-length', 0))
-            caminho_arquivo = f'downloads/{nome_arquivo}'
 
             # Mostrar o progresso de download com tqdm
             with open(caminho_arquivo, 'wb') as f:
                 for data in tqdm(response.iter_content(chunk_size=1024), total=tamanho_arquivo // 1024, unit='KB'):
                     f.write(data)
+
+            # Incrementar a contagem de downloads para este arquivo
+            item['downloads'] += 1
+
+    # Salvar o mapeamento atualizado
+    with open('./src/mapeamento.json', 'w') as f:
+        json.dump(mapeamento, f)
 
     print("Download concluído!")
 
