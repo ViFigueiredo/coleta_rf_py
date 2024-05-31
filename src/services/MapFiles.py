@@ -29,11 +29,11 @@ def fileToTableMapping():
     return {
         'CNAECSV': {
             'table': 'cnaes',
-            'collumns': ['codigo', 'descricao'],
+            'columns': ['codigo', 'descricao'],
         },
         'SIMPLES': {
             'table': 'dados-simples',
-            'collumns': [
+            'columns': [
                 'cnpj_basico',
                 'opcao_simples',
                 'data_opcao_simples',
@@ -45,7 +45,7 @@ def fileToTableMapping():
         },
         'EMPRECSV': {
             'table': 'empresas',
-            'collumns': [
+            'columns': [
                 'cnpj_basico',
                 'razao_social',
                 'natureza_juridica',
@@ -57,7 +57,7 @@ def fileToTableMapping():
         },
         'ESTABELE': {
             'table': 'estabelecimentos',
-            'collumns': [
+            'columns': [
                 'cnpj_basico',
                 'cnpj_ordem',
                 'cnpj_dv',
@@ -91,27 +91,27 @@ def fileToTableMapping():
         },
         'MOTIVCSV': {
             'table': 'motivos',
-            'collumns': ['codigo', 'descricao'],
+            'columns': ['codigo', 'descricao'],
         },
         'MUNICCSV': {
             'table': 'municipios',
-            'collumns': ['codigo', 'descricao'],
+            'columns': ['codigo', 'descricao'],
         },
         'NATJUCSV': {
             'table': 'naturezas-juridicas',
-            'collumns': ['codigo', 'descricao'],
+            'columns': ['codigo', 'descricao'],
         },
         'PAISCSV': {
             'table': 'paises',
-            'collumns': ['codigo', 'descricao'],
+            'columns': ['codigo', 'descricao'],
         },
         'QUALSCSV': {
             'table': 'qualificacao-socios',
-            'collumns': ['codigo', 'descricao'],
+            'columns': ['codigo', 'descricao'],
         },
         'SOCIOCSV': {
             'table': 'socios',
-            'collumns': [
+            'columns': [
                 'cnpj_basico',
                 'identificador_socio',
                 'nome_razao_socio',
@@ -127,19 +127,19 @@ def fileToTableMapping():
         },
         'Imunes e isentas': {
             'table': 'imunes-isentas',
-            'collumns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
+            'columns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
         },
         'Lucro Arbitrado': {
             'table': 'lucro-arbitrado',
-            'collumns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
+            'columns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
         },
         'Lucro Presumido': {
             'table': 'lucro-presumido',
-            'collumns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
+            'columns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
         },
         'Lucro Real': {
             'table': 'lucro-real',
-            'collumns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
+            'columns': ['ano', 'cnpj', 'cnpj_scp', 'forma_tributacao', 'quantidade_escrituracoes'],
         }
     }
 
