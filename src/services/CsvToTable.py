@@ -1,19 +1,17 @@
 import pandas as pd
-import pymssql
 import os
+import sys
 from dotenv import load_dotenv
 from MapFiles import fileToTableMapping
 
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
-def csv_to_table():
+def insert():
     # Carrega as variáveis de ambiente do arquivo .env
     load_dotenv()
 
     # Conexão com o banco de dados
-    conn = pymssql.connect(server=os.getenv('DATABASE_HOST') + ':' + os.getenv('DATABASE_PORT'),
-                           user=os.getenv('DATABASE_USERNAME'),
-                           password=os.getenv('DATABASE_PASSWORD'),
-                           database=os.getenv('DATABASE'))
+    conn = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=192.168.0.200\\sqlserverfull;PORT=1434;DATABASE=robo_dados_rf;UID=dbAdmin;PWD=Ctelecom2017'
 
     cursor = conn.cursor()
 

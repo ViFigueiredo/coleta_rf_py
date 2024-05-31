@@ -8,9 +8,6 @@
 - Nodejs (modelagem de banco de dados) com eslint/prettier (formatação e estilização)
 - MS SQL Server 2019 (banco de dados relacional)
 
-# Gerar e atualizar libs
-pip freeze > requirements.txt
-
 # Instalar libs da aplicação
 pip install -r requirements.txt
 

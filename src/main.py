@@ -3,9 +3,11 @@
 # from services import ExtractFiles
 # from services import MapFiles
 # from services import CsvToTable
-from services import TestConnection
+from services import pyodbc
+from services import pymssql
 
-TestConnection.test()
+pymssql.test()
+pyodbc.test()
 # CriarDiretorios.make()
 # ColetarUrls.scrape()
 # ExtractFiles.extract()
@@ -13,6 +15,6 @@ TestConnection.test()
 # CsvToTable.insert()
 # print(MapFiles.collect())
 
-# TODO: implementar migrations e inserção de dados no banco
+# TODO: inserção de dados no banco
 # TODO: implementar execução automática ou manual
 # TODO: migrar as migrations nodejs -> python

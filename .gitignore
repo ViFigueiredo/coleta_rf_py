@@ -1,3 +1,32 @@
+# .gitignore
+
+# Ignorar arquivos de configuração do ambiente virtual
+venv/
+*.pyc
+__pycache__/
+
+# Ignorar arquivos específicos do pyenv
+.python-version
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos binários
+*.bin
+*.exe
+*.o
+*.so
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de pacotes Python
+*.egg-info/
+dist/
+build/
+
+
 downloads
 extracted
 mapeamento.json
