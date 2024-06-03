@@ -2,28 +2,6 @@ import os
 import re
 
 
-def collect():
-    pasta = 'extracted'
-    strings_coletadas = []
-
-    for nome_arquivo in os.listdir(pasta):
-        if nome_arquivo.endswith('.csv'):
-            match = re.search(r'(?:.*\.)?(.*)\.csv$', nome_arquivo)
-            if match:
-                string_coletada = match.group(1)
-                # Removendo o ano se o nome do arquivo começa com "Lucro"
-                if string_coletada.startswith('Lucro'):
-                    string_coletada = re.sub(r'\d+', '', string_coletada)
-                # Removendo espaços extras
-                string_coletada = string_coletada.strip()
-                strings_coletadas.append(string_coletada)
-
-    # Removendo duplicatas
-    strings_coletadas = list(set(strings_coletadas))
-
-    return strings_coletadas
-
-
 # Mapeamento de arquivos para o banco de dados
 def fileToTableMapping():
     return {
@@ -145,5 +123,4 @@ def fileToTableMapping():
 
 
 if __name__ == '__main__':
-    collect()
     fileToTableMapping()

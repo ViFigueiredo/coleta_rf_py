@@ -7,7 +7,7 @@ username = 'dbAdmin'
 password = 'Ctelecom2017'
 
 
-def test():
+def connection():
 
     try:
         conn = pymssql.connect(
@@ -15,13 +15,11 @@ def test():
             user=username,
             password=password,
             database=database_name)
-        # print(conn)
-        print('Conectado com pymssql. \n')
-        conn.close()
-
+        print('[DB] -> Conectado com sucesso!. \n')
+        return conn
     except Exception as e:
-        print("Falha na conexão:", e)
+        print("[DB] -> Falha na conexão: \n", e)
 
 
 if __name__ == '__main__':
-    test()
+    connection()

@@ -1,19 +1,13 @@
-# from services import CriarDiretorios
-# from services import ColetarUrls
-# from services import ExtractFiles
-# from services import MapFiles
-# from services import CsvToTable
-from services import pyodbc
-from services import pymssql
+from services import CriarDiretorios
+from services import ColetarUrls
+from services import ExtractFiles
+from services import InsertFiles
 
-pymssql.test()
-pyodbc.test()
-# CriarDiretorios.make()
-# ColetarUrls.scrape()
-# ExtractFiles.extract()
-# ExtractFiles.add_extension()
-# CsvToTable.insert()
-# print(MapFiles.collect())
+CriarDiretorios.make()
+ColetarUrls.scrape()
+ExtractFiles.extract()
+ExtractFiles.add_extension()
+InsertFiles.process_files()
 
 # TODO: inserção de dados no banco
 # TODO: implementar execução automática ou manual
