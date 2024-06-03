@@ -10,5 +10,5 @@ ExtractFiles.add_extension()
 InsertFiles.process_files()
 
 # TODO: inserção de dados no banco
-# TODO: implementar execução automática ou manual
+# TODO: implementar execução automática e manual
 # TODO: migrar as migrations nodejs -> python
