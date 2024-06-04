@@ -61,7 +61,7 @@ def download(baixar_todos=False, baixar_atualizados=False, atualizar=[]):
 
             # Mostrar o progresso de download com tqdm
             with open(caminho_arquivo, 'wb') as f:
-                for data in tqdm(response.iter_content(chunk_size=1024), total=tamanho_arquivo // 1024, unit='KB'):
+                for data in tqdm(response.iter_content(chunk_size=1024), total=tamanho_arquivo // 1024, unit='KB', desc=f'Baixando {nome_arquivo}: '):
                     f.write(data)
 
             # Incrementar a contagem de downloads para este arquivo
